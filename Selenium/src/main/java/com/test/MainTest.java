@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class MainTest {
-	public static final String webUrl = "https://www.edureka.com";
+	public static final String webUrl = "https://www.edureka.co";
 	private String driverPath = "resources/chromedriver-v83.exe";
 	private WebDriver driver;
 	
@@ -22,7 +22,7 @@ public class MainTest {
 	
 	@Test
 	public void verifyHomeTitle() {
-		String expectedTitle="Instructor";
+		String expectedTitle="Instructor-Led Online Training with 24X7 Lifetime Support | Edureka";
 		String actualTitle = driver.getTitle();
 		Assert.assertEquals(actualTitle, expectedTitle);
 	}
