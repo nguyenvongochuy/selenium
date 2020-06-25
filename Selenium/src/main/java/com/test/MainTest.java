@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class MainTest {
 	public static final String webUrl = "https://www.edureka.com";
-	private String driverPath = "chromedriver.exe";
+	private String driverPath = "resources/chromedriver.exe";
 	private WebDriver driver;
 	
 	@BeforeTest
