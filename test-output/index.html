@@ -5,8 +5,9 @@
   <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
-    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -23,6 +24,7 @@
   <body>
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
       <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
@@ -49,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Huy\AppData\Local\Temp\testng-eclipse--991037565\testng-customsuite.xml</span>
+                    <span>C:\Users\Huy\AppData\Local\Temp\testng-eclipse--1315246635\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +104,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.test.MainTest" hash-for-method="verifyHomeTitle">verifyHomeTitle</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="greenfield.test.Login" hash-for-method="verifyLoginFail">verifyLoginFail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="greenfield.test.Login" hash-for-method="verifyLoginPass">verifyLoginPass</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -120,14 +127,21 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.test.MainTest</span>
+              <span class="class-name">greenfield.test.Login</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyHomeTitle">
-                  </a> <!-- verifyHomeTitle -->
-                  <span class="method-name">verifyHomeTitle</span>
+                  <a name="verifyLoginFail">
+                  </a> <!-- verifyLoginFail -->
+                  <span class="method-name">verifyLoginFail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginPass">
+                  </a> <!-- verifyLoginPass -->
+                  <span class="method-name">verifyLoginPass</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,16 +149,16 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Huy\AppData\Local\Temp\testng-eclipse--991037565\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Huy\AppData\Local\Temp\testng-eclipse--1315246635\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
-  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.test.MainTest&quot;/&gt;
+      &lt;class name=&quot;greenfield.test.Login&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -184,16 +198,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyHomeTitle')
-data.setCell(0, 2, 'com.test.MainTest')
-data.setCell(0, 3, 38);
+data.setCell(0, 1, 'verifyLoginPass')
+data.setCell(0, 2, 'greenfield.test.Login')
+data.setCell(0, 3, 968);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyLoginFail')
+data.setCell(1, 2, 'greenfield.test.Login')
+data.setCell(1, 3, 650);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 38 ms</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -219,22 +237,27 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.test.MainTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">greenfield.test.Login</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">lauchBrowser</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">verifyHomeTitle</span>
-                <span class="method-start">27263 ms</span>
+                <span class="method-name">verifyLoginFail</span>
+                <span class="method-start">6684 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginPass</span>
+                <span class="method-start">7345 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">27306 ms</span>
+                <span class="method-start">8327 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
     </div> <!-- wrapper -->
   </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
 </html>
