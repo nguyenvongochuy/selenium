@@ -7,6 +7,7 @@
         <methods>
           <include name="verifyHomeTitle"/>
           <include name="lauchBrowser"/>
+          <include name="closeBrowser"/>
         </methods>
       </class> <!-- com.test.MainTest -->
     </classes>
