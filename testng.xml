@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <groups>
+		<run>
+			<exclude name="firefox"></exclude>
+		</run>
+	</groups>
+  <test name="GeneralTest">
+    <classes>
+      <class name="com.test.MainTest"/>
+      <class name="com.test.MainTestFirefox">
+	      <!-- <methods>
+	      	<exclude name="launchBrowser" ></exclude>
+	      	<exclude name="verifyHomeTitle"></exclude>
+	      	<exclude name="closeBrowser" ></exclude>
+	      </methods> -->
+	  </class>
+    </classes>
+  </test> 
+  <test name="TestForGreenFieldWeb">
+    <classes>
+      <class name="greenfield.test.Login"/>
+      <class name="greenfield.test.LocalizationTest"/>
+    </classes>
+  </test> 
+</suite> <!-- Suite -->

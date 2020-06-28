@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="GeneralTest(failed)">
     <classes>
+      <class name="com.test.MainTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="verifyHomeTitle"/>
+        </methods>
+      </class> <!-- com.test.MainTest -->
+      <class name="greenfield.test.LocalizationTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- greenfield.test.LocalizationTest -->
       <class name="greenfield.test.Login">
         <methods>
-          <include name="verifyLoginPass"/>
-          <include name="lauchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
         </methods>
       </class> <!-- greenfield.test.Login -->
+      <class name="com.test.MainTestFirefox">
+        <methods>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.test.MainTestFirefox -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- GeneralTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

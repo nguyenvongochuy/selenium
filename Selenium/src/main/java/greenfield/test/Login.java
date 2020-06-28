@@ -13,7 +13,7 @@ public class Login {
 	private WebDriver driver;
 	
 	@BeforeTest
-	public void lauchBrowser() {
+	public void launchBrowser() {
 		System.out.println("Launching web browser");
 		System.setProperty(Common.CHROME_DRIVER, Common.DRIVER_PATH);
 		driver = new ChromeDriver();

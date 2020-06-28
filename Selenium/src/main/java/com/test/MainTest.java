@@ -9,11 +9,12 @@ import org.testng.annotations.Test;
 
 public class MainTest {
 	public static final String webUrl = "https://www.edureka.co";
-	private String driverPath = "resources/chromedriver-v83.exe";
+	//private String driverPath = "resources/chromedriver-v83.exe"; // windows driver for chrome
+	private String driverPath = "resources/chromedriver"; // linux driver for chrome
 	private WebDriver driver;
 	
 	@BeforeTest
-	public void lauchBrowser() {
+	public void launchBrowser() {
 		System.out.println("Launching web browser");
 		System.setProperty("webdriver.chrome.driver", driverPath);
 		driver = new ChromeDriver();
@@ -27,7 +28,7 @@ public class MainTest {
 		Assert.assertEquals(actualTitle, expectedTitle);
 	}
 	
-	@AfterTest
+	@AfterTest(enabled=true)
 	public void closeBrowser() {
 		driver.close();
 	}
