@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.test.MainTest">
+      <class name="com.letskodeit.LetsKodeItTest">
         <methods>
-          <include name="verifyHomeTitle"/>
-          <include name="lauchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="findPriceForCourseName"/>
         </methods>
-      </class> <!-- com.test.MainTest -->
+      </class> <!-- com.letskodeit.LetsKodeItTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

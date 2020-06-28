@@ -1,63 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="16997" started-at="2020-06-28T18:27:33Z" finished-at="2020-06-28T18:27:50Z">
+  <suite name="Default suite" duration-ms="5702" started-at="2020-06-28T22:51:56Z" finished-at="2020-06-28T22:52:02Z">
     <groups>
     </groups>
-    <test name="GeneralTest" duration-ms="7556" started-at="2020-06-28T18:27:33Z" finished-at="2020-06-28T18:27:40Z">
-      <class name="com.test.MainTest">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.test.MainTest@1b604f19]" name="launchBrowser" is-config="true" duration-ms="7297" started-at="2020-06-28T13:27:33Z" finished-at="2020-06-28T13:27:40Z">
+    <test name="Default test" duration-ms="5702" started-at="2020-06-28T22:51:56Z" finished-at="2020-06-28T22:52:02Z">
+      <class name="com.letskodeit.LetsKodeItTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.letskodeit.LetsKodeItTest@1593948d]" name="launchBrowser" is-config="true" duration-ms="5462" started-at="2020-06-28T17:51:56Z" finished-at="2020-06-28T17:52:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="verifyHomeTitle()[pri:0, instance:com.test.MainTest@1b604f19]" name="verifyHomeTitle" duration-ms="17" started-at="2020-06-28T13:27:40Z" finished-at="2020-06-28T13:27:40Z">
+        <test-method status="PASS" signature="findPriceForCourseName()[pri:0, instance:com.letskodeit.LetsKodeItTest@1593948d]" name="findPriceForCourseName" duration-ms="94" started-at="2020-06-28T17:52:02Z" finished-at="2020-06-28T17:52:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyHomeTitle -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.test.MainTest@1b604f19]" name="closeBrowser" is-config="true" duration-ms="214" started-at="2020-06-28T13:27:40Z" finished-at="2020-06-28T13:27:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.test.MainTest -->
-    </test> <!-- GeneralTest -->
-    <test name="TestForGreenFieldWeb" duration-ms="9426" started-at="2020-06-28T18:27:40Z" finished-at="2020-06-28T18:27:50Z">
-      <class name="greenfield.test.Login">
-        <test-method status="PASS" signature="verifyLoginFail()[pri:0, instance:greenfield.test.Login@61832929]" name="verifyLoginFail" duration-ms="3649" started-at="2020-06-28T13:27:44Z" finished-at="2020-06-28T13:27:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginFail -->
-        <test-method status="PASS" signature="verifyLoginPass()[pri:0, instance:greenfield.test.Login@61832929]" name="verifyLoginPass" duration-ms="1179" started-at="2020-06-28T13:27:48Z" finished-at="2020-06-28T13:27:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginPass -->
-      </class> <!-- greenfield.test.Login -->
-      <class name="greenfield.test.LocalizationTest">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:greenfield.test.LocalizationTest@29774679]" name="launchBrowser" is-config="true" duration-ms="1708" started-at="2020-06-28T13:27:40Z" finished-at="2020-06-28T13:27:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:greenfield.test.Login@61832929]" name="launchBrowser" is-config="true" duration-ms="2140" started-at="2020-06-28T13:27:42Z" finished-at="2020-06-28T13:27:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="verifyHomeTitle()[pri:0, instance:greenfield.test.LocalizationTest@29774679]" name="verifyHomeTitle" duration-ms="12" started-at="2020-06-28T13:27:49Z" finished-at="2020-06-28T13:27:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHomeTitle -->
-        <test-method status="PASS" signature="verifyMenuLabels()[pri:0, instance:greenfield.test.LocalizationTest@29774679]" name="verifyMenuLabels" duration-ms="492" started-at="2020-06-28T13:27:49Z" finished-at="2020-06-28T13:27:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyMenuLabels -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:greenfield.test.LocalizationTest@29774679]" name="closeBrowser" is-config="true" duration-ms="92" started-at="2020-06-28T13:27:50Z" finished-at="2020-06-28T13:27:50Z">
+        </test-method> <!-- findPriceForCourseName -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.letskodeit.LetsKodeItTest@1593948d]" name="closeBrowser" is-config="true" duration-ms="116" started-at="2020-06-28T17:52:02Z" finished-at="2020-06-28T17:52:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:greenfield.test.Login@61832929]" name="closeBrowser" is-config="true" duration-ms="142" started-at="2020-06-28T13:27:50Z" finished-at="2020-06-28T13:27:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- greenfield.test.LocalizationTest -->
-    </test> <!-- TestForGreenFieldWeb -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.letskodeit.LetsKodeItTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
