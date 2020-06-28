@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Suite">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,41 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">0 methods,   </span>
+                    <span class="method-stats">5 methods,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.test.MainTest" hash-for-method="verifyHomeTitle">verifyHomeTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="greenfield.test.LocalizationTest" hash-for-method="verifyHomeTitle">verifyHomeTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="greenfield.test.Login" hash-for-method="verifyLoginFail">verifyLoginFail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="greenfield.test.Login" hash-for-method="verifyLoginPass">verifyLoginPass</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="greenfield.test.LocalizationTest" hash-for-method="verifyMenuLabels">verifyMenuLabels</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -103,6 +137,65 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.MainTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomeTitle">
+                  </a> <!-- verifyHomeTitle -->
+                  <span class="method-name">verifyHomeTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">greenfield.test.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginFail">
+                  </a> <!-- verifyLoginFail -->
+                  <span class="method-name">verifyLoginFail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginPass">
+                  </a> <!-- verifyLoginPass -->
+                  <span class="method-name">verifyLoginPass</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">greenfield.test.LocalizationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomeTitle">
+                  </a> <!-- verifyHomeTitle -->
+                  <span class="method-name">verifyHomeTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMenuLabels">
+                  </a> <!-- verifyMenuLabels -->
+                  <span class="method-name">verifyMenuLabels</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -120,9 +213,16 @@
   &lt;/groups&gt;
   &lt;test name=&quot;GeneralTest&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;com.test.MainTest&quot;/&gt;
       &lt;class name=&quot;com.test.MainTestFirefox&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- GeneralTest --&gt;
+  &lt;test name=&quot;TestForGreenFieldWeb&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;greenfield.test.Login&quot;/&gt;
+      &lt;class name=&quot;greenfield.test.LocalizationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestForGreenFieldWeb --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -134,7 +234,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">GeneralTest (1 class)</span>
+                <span class="test-name">GeneralTest (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">TestForGreenFieldWeb (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -160,11 +263,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(0);
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyLoginFail')
+data.setCell(0, 2, 'greenfield.test.Login')
+data.setCell(0, 3, 3649);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyLoginPass')
+data.setCell(1, 2, 'greenfield.test.Login')
+data.setCell(1, 3, 1179);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyMenuLabels')
+data.setCell(2, 2, 'greenfield.test.LocalizationTest')
+data.setCell(2, 3, 492);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyHomeTitle')
+data.setCell(3, 2, 'com.test.MainTest')
+data.setCell(3, 3, 17);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyHomeTitle')
+data.setCell(4, 2, 'greenfield.test.LocalizationTest')
+data.setCell(4, 3, 12);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -196,6 +320,64 @@ return data;
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.MainTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomeTitle</span>
+                <span class="method-start">7310 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">7337 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">greenfield.test.LocalizationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">7567 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">greenfield.test.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">9275 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginFail</span>
+                <span class="method-start">11416 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginPass</span>
+                <span class="method-start">15067 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">greenfield.test.LocalizationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyHomeTitle</span>
+                <span class="method-start">16248 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMenuLabels</span>
+                <span class="method-start">16264 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">16758 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">greenfield.test.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">16850 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
