@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11850" started-at="2020-06-28T23:54:56Z" finished-at="2020-06-28T23:55:08Z">
+  <suite name="Default suite" duration-ms="17283" started-at="2020-06-29T05:44:05Z" finished-at="2020-06-29T05:44:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11850" started-at="2020-06-28T23:54:56Z" finished-at="2020-06-28T23:55:08Z">
-      <class name="com.letskodeit.DropdownSelect">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.letskodeit.DropdownSelect@1593948d]" name="launchBrowser" is-config="true" duration-ms="1679" started-at="2020-06-28T18:54:56Z" finished-at="2020-06-28T18:54:58Z">
+    <test name="Default test" duration-ms="17283" started-at="2020-06-29T05:44:05Z" finished-at="2020-06-29T05:44:22Z">
+      <class name="com.letskode.ElementHideOrDisplay">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.letskode.ElementHideOrDisplay@1593948d]" name="launchBrowser" is-config="true" duration-ms="1886" started-at="2020-06-29T00:44:05Z" finished-at="2020-06-29T00:44:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="navigatePages()[pri:0, instance:com.letskodeit.DropdownSelect@1593948d]" name="navigatePages" duration-ms="9835" started-at="2020-06-28T18:54:58Z" finished-at="2020-06-28T18:55:08Z">
+        <test-method status="PASS" signature="testExpedia()[pri:0, instance:com.letskode.ElementHideOrDisplay@1593948d]" name="testExpedia" duration-ms="15365" started-at="2020-06-29T00:44:07Z" finished-at="2020-06-29T00:44:22Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigatePages -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.letskodeit.DropdownSelect@1593948d]" name="closeBrowser" is-config="true" duration-ms="302" started-at="2020-06-28T18:55:08Z" finished-at="2020-06-28T18:55:08Z">
+        </test-method> <!-- testExpedia -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.letskode.ElementHideOrDisplay@1593948d]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2020-06-29T00:44:22Z" finished-at="2020-06-29T00:44:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.letskodeit.DropdownSelect -->
+      </class> <!-- com.letskode.ElementHideOrDisplay -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

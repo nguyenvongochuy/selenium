@@ -12,7 +12,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class DropdownSelect {
+public class MultiSelectDropdownList {
 	public static final String webUrl = "https://letskodeit.teachable.com/p/practice";
 	//private String driverPath = "resources/chromedriver-v83.exe"; // windows driver for chrome
 	private String driverPath = "resources/chromedriver"; // linux driver for chrome
@@ -29,26 +29,29 @@ public class DropdownSelect {
 	}
 	
 	@Test
-	public void selectDropDownList() throws InterruptedException {
+	public void multiSelect() throws InterruptedException {
 		driver.get(webUrl);
 		
-		WebElement element = driver.findElement(By.id("carselect"));
+		WebElement element = driver.findElement(By.id("multiple-select-example"));
 		Select select = new Select(element);
 		
 		Thread.sleep(2000);
-		select.selectByValue("benz");
+		select.selectByValue("apple");
 		
 		Thread.sleep(2000);
-		select.selectByIndex(2);
+		select.selectByIndex(1);
+		select.deselectByValue("orange");
 		
 		Thread.sleep(2000);
-		select.selectByVisibleText("BMW");
+		select.selectByVisibleText("Peach");
 		
 		//display all dropdown values
-		List<WebElement> options = select.getOptions();
+		List<WebElement> options = select.getAllSelectedOptions();
 		for (WebElement option : options){
 			System.out.println(option.getText());
 		}
+		
+		select.deselectAll();
 		
 	}
 	
