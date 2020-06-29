@@ -1,4 +1,4 @@
-package com.letskodeit;
+package com.letskode;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
