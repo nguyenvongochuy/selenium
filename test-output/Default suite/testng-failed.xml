@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.letskode.advances.CalendarSelect">
+      <class name="com.letskode.advances.CaptureScreenshot">
         <methods>
           <include name="closeBrowser"/>
           <include name="launchBrowser"/>
-          <include name="selectCalendar"/>
+          <include name="accessFlight"/>
         </methods>
-      </class> <!-- com.letskode.advances.CalendarSelect -->
+      </class> <!-- com.letskode.advances.CaptureScreenshot -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16957" started-at="2020-06-30T05:57:12Z" finished-at="2020-06-30T05:57:28Z">
+  <suite name="Default suite" duration-ms="19088" started-at="2020-06-30T23:11:22Z" finished-at="2020-06-30T23:11:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16957" started-at="2020-06-30T05:57:12Z" finished-at="2020-06-30T05:57:28Z">
-      <class name="com.letskode.advances.CalendarSelect">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.letskode.advances.CalendarSelect@1593948d]" name="launchBrowser" is-config="true" duration-ms="2088" started-at="2020-06-30T00:57:12Z" finished-at="2020-06-30T00:57:14Z">
+    <test name="Default test" duration-ms="19088" started-at="2020-06-30T23:11:22Z" finished-at="2020-06-30T23:11:41Z">
+      <class name="com.letskode.advances.CaptureScreenshot">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.letskode.advances.CaptureScreenshot@7823a2f9]" name="launchBrowser" is-config="true" duration-ms="2024" started-at="2020-06-30T18:11:22Z" finished-at="2020-06-30T18:11:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="selectCalendar()[pri:0, instance:com.letskode.advances.CalendarSelect@1593948d]" name="selectCalendar" duration-ms="10645" started-at="2020-06-30T00:57:14Z" finished-at="2020-06-30T00:57:24Z">
+        <test-method status="PASS" signature="accessFlight()[pri:0, instance:com.letskode.advances.CaptureScreenshot@7823a2f9]" name="accessFlight" duration-ms="13883" started-at="2020-06-30T18:11:24Z" finished-at="2020-06-30T18:11:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectCalendar -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.letskode.advances.CalendarSelect@1593948d]" name="closeBrowser" is-config="true" duration-ms="4192" started-at="2020-06-30T00:57:24Z" finished-at="2020-06-30T00:57:28Z">
+        </test-method> <!-- accessFlight -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.letskode.advances.CaptureScreenshot@7823a2f9]" name="closeBrowser" is-config="true" duration-ms="3153" started-at="2020-06-30T18:11:38Z" finished-at="2020-06-30T18:11:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.letskode.advances.CalendarSelect -->
+      </class> <!-- com.letskode.advances.CaptureScreenshot -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
