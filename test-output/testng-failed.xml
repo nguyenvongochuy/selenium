@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.letskode.ElementHideOrDisplay">
+      <class name="com.letskode.CheckElementPresent">
         <methods>
-          <include name="testExpedia"/>
-          <include name="closeBrowser"/>
           <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="navigatePages"/>
         </methods>
-      </class> <!-- com.letskode.ElementHideOrDisplay -->
+      </class> <!-- com.letskode.CheckElementPresent -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

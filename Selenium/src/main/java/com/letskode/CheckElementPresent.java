@@ -38,7 +38,10 @@ public class CheckElementPresent {
 			System.out.println("Element contents: " + element.getText());
 		}
 		
-		boolean foundElement = genericMethods.isElementPresent("//input[@type='text']", "xpath");
+		boolean foundElement = genericMethods.isElementPresent("//input[@type='textabc']", "xpath");
+		System.out.println("element found: " + foundElement);
+		
+		foundElement = genericMethods.isElementPresent("//input[@type='text']", "xpath1");
 		System.out.println("element found: " + foundElement);
 	}
 	

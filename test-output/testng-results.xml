@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9182" started-at="2020-06-30T03:01:41Z" finished-at="2020-06-30T03:01:50Z">
+  <suite name="Default suite" duration-ms="14363" started-at="2020-06-30T03:28:39Z" finished-at="2020-06-30T03:28:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9182" started-at="2020-06-30T03:01:41Z" finished-at="2020-06-30T03:01:50Z">
+    <test name="Default test" duration-ms="14363" started-at="2020-06-30T03:28:39Z" finished-at="2020-06-30T03:28:54Z">
       <class name="com.letskode.CheckElementPresent">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.letskode.CheckElementPresent@1593948d]" name="launchBrowser" is-config="true" duration-ms="3848" started-at="2020-06-29T22:01:41Z" finished-at="2020-06-29T22:01:45Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.letskode.CheckElementPresent@1593948d]" name="launchBrowser" is-config="true" duration-ms="1655" started-at="2020-06-29T22:28:39Z" finished-at="2020-06-29T22:28:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="navigatePages()[pri:0, instance:com.letskode.CheckElementPresent@1593948d]" name="navigatePages" duration-ms="5148" started-at="2020-06-29T22:01:45Z" finished-at="2020-06-29T22:01:50Z">
+        <test-method status="PASS" signature="navigatePages()[pri:0, instance:com.letskode.CheckElementPresent@1593948d]" name="navigatePages" duration-ms="12495" started-at="2020-06-29T22:28:41Z" finished-at="2020-06-29T22:28:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigatePages -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.letskode.CheckElementPresent@1593948d]" name="closeBrowser" is-config="true" duration-ms="164" started-at="2020-06-29T22:01:50Z" finished-at="2020-06-29T22:01:50Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.letskode.CheckElementPresent@1593948d]" name="closeBrowser" is-config="true" duration-ms="183" started-at="2020-06-29T22:28:54Z" finished-at="2020-06-29T22:28:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
