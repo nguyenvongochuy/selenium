@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14363" started-at="2020-06-30T03:28:39Z" finished-at="2020-06-30T03:28:54Z">
+  <suite name="Default suite" duration-ms="16957" started-at="2020-06-30T05:57:12Z" finished-at="2020-06-30T05:57:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14363" started-at="2020-06-30T03:28:39Z" finished-at="2020-06-30T03:28:54Z">
-      <class name="com.letskode.CheckElementPresent">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.letskode.CheckElementPresent@1593948d]" name="launchBrowser" is-config="true" duration-ms="1655" started-at="2020-06-29T22:28:39Z" finished-at="2020-06-29T22:28:41Z">
+    <test name="Default test" duration-ms="16957" started-at="2020-06-30T05:57:12Z" finished-at="2020-06-30T05:57:28Z">
+      <class name="com.letskode.advances.CalendarSelect">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.letskode.advances.CalendarSelect@1593948d]" name="launchBrowser" is-config="true" duration-ms="2088" started-at="2020-06-30T00:57:12Z" finished-at="2020-06-30T00:57:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="navigatePages()[pri:0, instance:com.letskode.CheckElementPresent@1593948d]" name="navigatePages" duration-ms="12495" started-at="2020-06-29T22:28:41Z" finished-at="2020-06-29T22:28:54Z">
+        <test-method status="PASS" signature="selectCalendar()[pri:0, instance:com.letskode.advances.CalendarSelect@1593948d]" name="selectCalendar" duration-ms="10645" started-at="2020-06-30T00:57:14Z" finished-at="2020-06-30T00:57:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigatePages -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.letskode.CheckElementPresent@1593948d]" name="closeBrowser" is-config="true" duration-ms="183" started-at="2020-06-29T22:28:54Z" finished-at="2020-06-29T22:28:54Z">
+        </test-method> <!-- selectCalendar -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.letskode.advances.CalendarSelect@1593948d]" name="closeBrowser" is-config="true" duration-ms="4192" started-at="2020-06-30T00:57:24Z" finished-at="2020-06-30T00:57:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.letskode.CheckElementPresent -->
+      </class> <!-- com.letskode.advances.CalendarSelect -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
