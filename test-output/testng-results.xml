@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17283" started-at="2020-06-29T05:44:05Z" finished-at="2020-06-29T05:44:22Z">
+  <suite name="Default suite" duration-ms="9182" started-at="2020-06-30T03:01:41Z" finished-at="2020-06-30T03:01:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17283" started-at="2020-06-29T05:44:05Z" finished-at="2020-06-29T05:44:22Z">
-      <class name="com.letskode.ElementHideOrDisplay">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.letskode.ElementHideOrDisplay@1593948d]" name="launchBrowser" is-config="true" duration-ms="1886" started-at="2020-06-29T00:44:05Z" finished-at="2020-06-29T00:44:07Z">
+    <test name="Default test" duration-ms="9182" started-at="2020-06-30T03:01:41Z" finished-at="2020-06-30T03:01:50Z">
+      <class name="com.letskode.CheckElementPresent">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.letskode.CheckElementPresent@1593948d]" name="launchBrowser" is-config="true" duration-ms="3848" started-at="2020-06-29T22:01:41Z" finished-at="2020-06-29T22:01:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="testExpedia()[pri:0, instance:com.letskode.ElementHideOrDisplay@1593948d]" name="testExpedia" duration-ms="15365" started-at="2020-06-29T00:44:07Z" finished-at="2020-06-29T00:44:22Z">
+        <test-method status="PASS" signature="navigatePages()[pri:0, instance:com.letskode.CheckElementPresent@1593948d]" name="navigatePages" duration-ms="5148" started-at="2020-06-29T22:01:45Z" finished-at="2020-06-29T22:01:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testExpedia -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.letskode.ElementHideOrDisplay@1593948d]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2020-06-29T00:44:22Z" finished-at="2020-06-29T00:44:22Z">
+        </test-method> <!-- navigatePages -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.letskode.CheckElementPresent@1593948d]" name="closeBrowser" is-config="true" duration-ms="164" started-at="2020-06-29T22:01:50Z" finished-at="2020-06-29T22:01:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.letskode.ElementHideOrDisplay -->
+      </class> <!-- com.letskode.CheckElementPresent -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
