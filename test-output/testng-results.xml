@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11884" started-at="2020-07-01T02:31:09Z" finished-at="2020-07-01T02:31:21Z">
+  <suite name="Default suite" duration-ms="12597" started-at="2020-07-02T06:01:04Z" finished-at="2020-07-02T06:01:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11884" started-at="2020-07-01T02:31:09Z" finished-at="2020-07-01T02:31:21Z">
-      <class name="com.letskode.javascripts.ScrollElement">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.letskode.javascripts.ScrollElement@20d28811]" name="launchBrowser" is-config="true" duration-ms="1942" started-at="2020-06-30T21:31:09Z" finished-at="2020-06-30T21:31:11Z">
+    <test name="Default test" duration-ms="12597" started-at="2020-07-02T06:01:04Z" finished-at="2020-07-02T06:01:17Z">
+      <class name="com.letskode.switchwindow.SwitchWindow">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.letskode.switchwindow.SwitchWindow@20d28811]" name="launchBrowser" is-config="true" duration-ms="2087" started-at="2020-07-02T01:01:04Z" finished-at="2020-07-02T01:01:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="scrollElement()[pri:0, instance:com.letskode.javascripts.ScrollElement@20d28811]" name="scrollElement" duration-ms="7577" started-at="2020-06-30T21:31:11Z" finished-at="2020-06-30T21:31:19Z">
+        <test-method status="PASS" signature="scrollElement()[pri:0, instance:com.letskode.switchwindow.SwitchWindow@20d28811]" name="scrollElement" duration-ms="8326" started-at="2020-07-02T01:01:06Z" finished-at="2020-07-02T01:01:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scrollElement -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.letskode.javascripts.ScrollElement@20d28811]" name="closeBrowser" is-config="true" duration-ms="2327" started-at="2020-06-30T21:31:19Z" finished-at="2020-06-30T21:31:21Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.letskode.switchwindow.SwitchWindow@20d28811]" name="closeBrowser" is-config="true" duration-ms="2149" started-at="2020-07-02T01:01:15Z" finished-at="2020-07-02T01:01:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.letskode.javascripts.ScrollElement -->
+      </class> <!-- com.letskode.switchwindow.SwitchWindow -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
