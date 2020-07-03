@@ -30,7 +30,7 @@ public class SwitchWindow {
 	}
 	
 	@Test
-	public void scrollElement() throws InterruptedException {
+	public void switchWindow() throws InterruptedException {
 		driver.get(webUrl);
 	
 		//Save windows handle name

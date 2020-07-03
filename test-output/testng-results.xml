@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12597" started-at="2020-07-02T06:01:04Z" finished-at="2020-07-02T06:01:17Z">
+  <suite name="Default suite" duration-ms="9235" started-at="2020-07-03T02:57:18Z" finished-at="2020-07-03T02:57:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12597" started-at="2020-07-02T06:01:04Z" finished-at="2020-07-02T06:01:17Z">
-      <class name="com.letskode.switchwindow.SwitchWindow">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.letskode.switchwindow.SwitchWindow@20d28811]" name="launchBrowser" is-config="true" duration-ms="2087" started-at="2020-07-02T01:01:04Z" finished-at="2020-07-02T01:01:06Z">
+    <test name="Default test" duration-ms="9235" started-at="2020-07-03T02:57:18Z" finished-at="2020-07-03T02:57:27Z">
+      <class name="com.letskode.sendkey.CombinationKey">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.letskode.sendkey.CombinationKey@20d28811]" name="launchBrowser" is-config="true" duration-ms="5226" started-at="2020-07-02T21:57:18Z" finished-at="2020-07-02T21:57:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="scrollElement()[pri:0, instance:com.letskode.switchwindow.SwitchWindow@20d28811]" name="scrollElement" duration-ms="8326" started-at="2020-07-02T01:01:06Z" finished-at="2020-07-02T01:01:15Z">
+        <test-method status="PASS" signature="selectAll()[pri:0, instance:com.letskode.sendkey.CombinationKey@20d28811]" name="selectAll" duration-ms="830" started-at="2020-07-02T21:57:23Z" finished-at="2020-07-02T21:57:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- scrollElement -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.letskode.switchwindow.SwitchWindow@20d28811]" name="closeBrowser" is-config="true" duration-ms="2149" started-at="2020-07-02T01:01:15Z" finished-at="2020-07-02T01:01:17Z">
+        </test-method> <!-- selectAll -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.letskode.sendkey.CombinationKey@20d28811]" name="closeBrowser" is-config="true" duration-ms="3127" started-at="2020-07-02T21:57:24Z" finished-at="2020-07-02T21:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.letskode.switchwindow.SwitchWindow -->
+      </class> <!-- com.letskode.sendkey.CombinationKey -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
