@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9235" started-at="2020-07-03T02:57:18Z" finished-at="2020-07-03T02:57:27Z">
+  <suite name="Default suite" duration-ms="14287" started-at="2020-07-04T22:30:54Z" finished-at="2020-07-04T22:31:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9235" started-at="2020-07-03T02:57:18Z" finished-at="2020-07-03T02:57:27Z">
-      <class name="com.letskode.sendkey.CombinationKey">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.letskode.sendkey.CombinationKey@20d28811]" name="launchBrowser" is-config="true" duration-ms="5226" started-at="2020-07-02T21:57:18Z" finished-at="2020-07-02T21:57:23Z">
+    <test name="Default test" duration-ms="14287" started-at="2020-07-04T22:30:54Z" finished-at="2020-07-04T22:31:08Z">
+      <class name="com.webdrivermanager.WebDriverManagerTest">
+        <test-method status="PASS" signature="initialTest()[pri:0, instance:com.webdrivermanager.WebDriverManagerTest@460d0a57]" name="initialTest" is-config="true" duration-ms="8717" started-at="2020-07-04T17:30:54Z" finished-at="2020-07-04T17:31:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="selectAll()[pri:0, instance:com.letskode.sendkey.CombinationKey@20d28811]" name="selectAll" duration-ms="830" started-at="2020-07-02T21:57:23Z" finished-at="2020-07-02T21:57:24Z">
+        </test-method> <!-- initialTest -->
+        <test-method status="PASS" signature="runTest1()[pri:0, instance:com.webdrivermanager.WebDriverManagerTest@460d0a57]" name="runTest1" duration-ms="5439" started-at="2020-07-04T17:31:02Z" finished-at="2020-07-04T17:31:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectAll -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.letskode.sendkey.CombinationKey@20d28811]" name="closeBrowser" is-config="true" duration-ms="3127" started-at="2020-07-02T21:57:24Z" finished-at="2020-07-02T21:57:27Z">
+        </test-method> <!-- runTest1 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.webdrivermanager.WebDriverManagerTest@460d0a57]" name="closeBrowser" is-config="true" duration-ms="101" started-at="2020-07-04T17:31:08Z" finished-at="2020-07-04T17:31:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.letskode.sendkey.CombinationKey -->
+      </class> <!-- com.webdrivermanager.WebDriverManagerTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
