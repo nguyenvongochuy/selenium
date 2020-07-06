@@ -1,0 +1,3 @@
+23:06:35.727 DEBUG Log4jDemo -Log4J debug
+23:06:35.738 ERROR Log4jDemo -log4J error
+23:06:35.738 FATAL Log4jDemo -Log4J Fatal

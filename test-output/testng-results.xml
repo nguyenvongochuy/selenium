@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14287" started-at="2020-07-04T22:30:54Z" finished-at="2020-07-04T22:31:08Z">
+  <suite name="Default suite" duration-ms="51" started-at="2020-07-06T04:23:22Z" finished-at="2020-07-06T04:23:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14287" started-at="2020-07-04T22:30:54Z" finished-at="2020-07-04T22:31:08Z">
-      <class name="com.webdrivermanager.WebDriverManagerTest">
-        <test-method status="PASS" signature="initialTest()[pri:0, instance:com.webdrivermanager.WebDriverManagerTest@460d0a57]" name="initialTest" is-config="true" duration-ms="8717" started-at="2020-07-04T17:30:54Z" finished-at="2020-07-04T17:31:02Z">
+    <test name="Default test" duration-ms="51" started-at="2020-07-06T04:23:22Z" finished-at="2020-07-06T04:23:22Z">
+      <class name="com.letskode.log4j2.package2.Log4jDemoMain">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.letskode.log4j2.package2.Log4jDemoMain@79079097]" name="setup" is-config="true" duration-ms="8" started-at="2020-07-05T23:23:22Z" finished-at="2020-07-05T23:23:22Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initialTest -->
-        <test-method status="PASS" signature="runTest1()[pri:0, instance:com.webdrivermanager.WebDriverManagerTest@460d0a57]" name="runTest1" duration-ms="5439" started-at="2020-07-04T17:31:02Z" finished-at="2020-07-04T17:31:08Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.letskode.log4j2.package2.Log4jDemoMain@79079097]" name="test" duration-ms="21" started-at="2020-07-05T23:23:22Z" finished-at="2020-07-05T23:23:22Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runTest1 -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.webdrivermanager.WebDriverManagerTest@460d0a57]" name="closeBrowser" is-config="true" duration-ms="101" started-at="2020-07-04T17:31:08Z" finished-at="2020-07-04T17:31:08Z">
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.letskode.log4j2.package2.Log4jDemoMain@79079097]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-07-05T23:23:22Z" finished-at="2020-07-05T23:23:22Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.webdrivermanager.WebDriverManagerTest -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.letskode.log4j2.package2.Log4jDemoMain -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

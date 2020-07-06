@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<Properties>
+		<Property name="basePath">./logs</Property>
+	</Properties>
+	<Appenders>
+		<Console name="Console">
+			<PatternLayout pattern="%d{HH:mm:ss.SS} %-5level %c{2} -%msg%n" />
+		</Console>
+
+		<RollingFile name="File">
+			<FileName>${basePath}/app.log</FileName>
+			<FilePattern>${basePath}/app-log-%d{yyyy-MM-dd-hh-mm}.log</FilePattern>
+			<PatternLayout pattern="%d{HH:mm:ss.SS} %-5level %c{2} -%msg%n" />
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1" modulate="true" />
+				<SizeBasedTriggeringPolicy size="100 KB" />
+			</Policies>
+		</RollingFile>
+	</Appenders>
+	<Loggers>
+		<Root level="trace">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="File" />
+		</Root>
+		<!-- set different log levels for each package -->
+		<Logger name="com.letskode.log4j2.package1" level="debug" additivity="false" >
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="File" />
+		</Logger>
+		<Logger name="com.letskode.log4j2.package2" level="info" additivity="false" >
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="File" />
+		</Logger>
+	</Loggers>
+
+</Configuration>

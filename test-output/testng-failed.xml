@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.letskode.framework.anotation.PageObjectModel">
+      <class name="com.letskode.framework.FindAllLinks">
         <methods>
-          <include name="searchPageTest"/>
-          <include name="launchBrowser"/>
+          <include name="testLinksTest"/>
           <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
         </methods>
-      </class> <!-- com.letskode.framework.anotation.PageObjectModel -->
+      </class> <!-- com.letskode.framework.FindAllLinks -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

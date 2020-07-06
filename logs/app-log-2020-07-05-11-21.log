@@ -1,0 +1,4 @@
+23:21:05.990 INFO  Log4jDemoMain -Log4J info
+23:21:06.02 WARN  Log4jDemoMain -Log4J warn
+23:21:06.02 ERROR Log4jDemoMain -log4J error
+23:21:06.03 FATAL Log4jDemoMain -Log4J Fatal

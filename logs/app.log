@@ -1,0 +1,4 @@
+23:23:22.502 INFO  package2.Log4jDemoMain -Log4J info
+23:23:22.511 WARN  package2.Log4jDemoMain -Log4J warn
+23:23:22.511 ERROR package2.Log4jDemoMain -log4J error
+23:23:22.511 FATAL package2.Log4jDemoMain -Log4J Fatal

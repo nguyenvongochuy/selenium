@@ -1,0 +1,15 @@
+23:17:15.603 TRACE Log4jDemo -Log4J trace
+23:17:15.614 INFO  Log4jDemo -Log4J info
+23:17:15.614 DEBUG Log4jDemo -Log4J debug
+23:17:15.614 ERROR Log4jDemo -log4J error
+23:17:15.615 FATAL Log4jDemo -Log4J Fatal
+23:17:22.318 TRACE Log4jDemo -Log4J trace
+23:17:22.323 INFO  Log4jDemo -Log4J info
+23:17:22.324 DEBUG Log4jDemo -Log4J debug
+23:17:22.324 ERROR Log4jDemo -log4J error
+23:17:22.325 FATAL Log4jDemo -Log4J Fatal
+23:17:28.360 TRACE Log4jDemoMain -Log4J trace
+23:17:28.364 INFO  Log4jDemoMain -Log4J info
+23:17:28.365 DEBUG Log4jDemoMain -Log4J debug
+23:17:28.365 ERROR Log4jDemoMain -log4J error
+23:17:28.365 FATAL Log4jDemoMain -Log4J Fatal
