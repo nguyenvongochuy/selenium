@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="GroupTest">
+    <groups>
+        <define name="all">
+            <include name="bike" />
+            <include name="suv" />
+            <include name="sedan" />
+        </define>
+        <define name="nobike">
+            <include name="suv" />
+            <include name="sedan" />
+        </define>
+        <run>
+            <include name="nobike" />
+        </run>
+
+    </groups>
+
+    <classes>
+      <class name="com.letskode.arrangement.GroupTest"/>
+    </classes>
+  </test> 
+</suite>
