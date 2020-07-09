@@ -14,8 +14,8 @@ import org.testng.annotations.Test;
 
 public class CombinationKey {
 	public static final String webUrl = "https://letskodeit.teachable.com/p/practice";
-	//private String driverPath = "resources/chromedriver-v83.exe"; // windows driver for chrome
-	private String driverPath = "resources/chromedriver"; // linux driver for chrome
+	private String driverPath = "resources/chromedriver-v83.exe"; // windows driver for chrome
+	//private String driverPath = "resources/chromedriver"; // linux driver for chrome
 	private WebDriver driver;
 	private JavascriptExecutor js;
 	
