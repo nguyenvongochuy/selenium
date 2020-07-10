@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="GeneralTest(failed)">
+  <test name="TestForGreenFieldWeb(failed)">
+    <groups>
+      <run>
+        <exclude name="firefox"/>
+      </run>
+    </groups>
     <classes>
+      <class name="greenfield.test.Login">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifyLoginPass"/>
+          <include name="launchBrowser"/>
+          <include name="verifyLoginFail"/>
+        </methods>
+      </class> <!-- greenfield.test.Login -->
       <class name="com.test.MainTest">
         <methods>
           <include name="launchBrowser"/>
-          <include name="verifyHomeTitle"/>
+          <include name="closeBrowser"/>
         </methods>
       </class> <!-- com.test.MainTest -->
       <class name="greenfield.test.LocalizationTest">
         <methods>
+          <include name="verifyMenuLabels"/>
+          <include name="verifyHomeTitle"/>
           <include name="closeBrowser"/>
           <include name="launchBrowser"/>
         </methods>
       </class> <!-- greenfield.test.LocalizationTest -->
-      <class name="greenfield.test.Login">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="launchBrowser"/>
-        </methods>
-      </class> <!-- greenfield.test.Login -->
-      <class name="com.test.MainTestFirefox">
-        <methods>
-          <include name="launchBrowser"/>
-        </methods>
-      </class> <!-- com.test.MainTestFirefox -->
     </classes>
-  </test> <!-- GeneralTest(failed) -->
+  </test> <!-- TestForGreenFieldWeb(failed) -->
 </suite> <!-- Failed suite [Suite] -->

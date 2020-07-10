@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite for Report]">
+  <test name="Test1(failed)">
     <classes>
-      <class name="com.letskode.framework.FindAllLinks">
+      <class name="com.letskode.report.ReportTest">
         <methods>
-          <include name="testLinksTest"/>
-          <include name="closeBrowser"/>
-          <include name="launchBrowser"/>
+          <include name="listener2TestTest2"/>
+          <include name="cleanUp"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.letskode.framework.FindAllLinks -->
+      </class> <!-- com.letskode.report.ReportTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite for Report] -->
