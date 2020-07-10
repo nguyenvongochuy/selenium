@@ -6,7 +6,12 @@
     <parameter name="response" value="201, 200"></parameter>
     <test name="Test1" >
         <classes>
-            <class name="com.letskode.parameter_parallel.Parameter1Test"/>
+            <class name="com.letskode.parameter_parallel.parameter.Parameter1Test"/>
+        </classes>
+    </test>
+    <test name="Test2" >
+        <classes>
+            <class name="com.letskode.parameter_parallel.parameter.ParamTest"/>
         </classes>
     </test>
 </suite>

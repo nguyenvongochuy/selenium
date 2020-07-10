@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel Suite" parallel="tests" thread-count="2"> <!-- run below test in parallel-->
+    <test name="Firefox Test" >
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="com.letskode.parameter_parallel.browserparallel.ParallelBrowserTest"/>
+        </classes>
+    </test>
+    <test name="Chrome Test" >
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="com.letskode.parameter_parallel.browserparallel.ParallelBrowserTest"/>
+        </classes>
+    </test>
+</suite>
+

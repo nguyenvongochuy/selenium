@@ -1,4 +1,4 @@
-package com.letskode.parameter_parallel;
+package com.letskode.parameter_parallel.parallel;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;

@@ -19,7 +19,7 @@
     </groups>
 
     <classes>
-      <class name="com.letskode.arrangement.GroupTest"/>
+      <class name="com.letskode.arrangement.group.GroupTest"/>
     </classes>
   </test> 
 </suite>

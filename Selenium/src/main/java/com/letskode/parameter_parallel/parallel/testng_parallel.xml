@@ -3,12 +3,12 @@
 <suite name="Parallel Suite" parallel="tests" thread-count="2"> <!-- run below test in parallel-->
     <test name="Test1" >
         <classes>
-            <class name="com.letskode.parameter_parallel.Parameter1Test"/>
+            <class name="com.letskode.parameter_parallel.parameter.Parameter1Test"/>
         </classes>
     </test>
     <test name="Test2" >
         <classes>
-            <class name="com.letskode.parameter_parallel.Parameter2Test"/>
+            <class name="com.letskode.parameter_parallel.parallel.Parameter2Test"/>
         </classes>
     </test>
 </suite>

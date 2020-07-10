@@ -3,14 +3,14 @@
 <suite name="Suite">
     <test name="Test1" preserve-order="false"> <!-- not follow order by below -->
         <classes>
-      <class name="com.letskode.arrangement.Preserve2Test"/>
-      <class name="com.letskode.arrangement.Preserve1Test"/>
+      <class name="com.letskode.arrangement.preserve.Preserve2Test"/>
+      <class name="com.letskode.arrangement.preserve.Preserve1Test"/>
     </classes>
   </test>
     <test name="Test2" enabled="false"> <!-- not allow to run all classes -->
     <classes>
-      <class name="com.letskode.arrangement.Preserve2Test"/>
-      <class name="com.letskode.arrangement.Preserve1Test"/>
+      <class name="com.letskode.arrangement.preserve.Preserve2Test"/>
+      <class name="com.letskode.arrangement.preserve.Preserve1Test"/>
     </classes>
   </test>
 </suite>

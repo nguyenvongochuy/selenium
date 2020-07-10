@@ -1,4 +1,4 @@
-package com.letskode.parameter_parallel;
+package com.letskode.parameter_parallel.parameter;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import java.util.Arrays;
 import java.util.List;
 
-public class ParallelTest {
+public class ParamTest {
 
 
     @BeforeClass

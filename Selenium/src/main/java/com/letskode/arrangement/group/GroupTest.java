@@ -1,4 +1,4 @@
-package com.letskode.arrangement;
+package com.letskode.arrangement.group;
 
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
