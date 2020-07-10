@@ -3,7 +3,7 @@
 <suite name="Suite">
     <test name="Test1" >
         <classes>
-            <class name="com.letskode.listener.ListenerTest"/>
+            <class name="com.letskode.listener.i_test_listener.Listener2Test"/>
         </classes>
     </test>
 </suite>
