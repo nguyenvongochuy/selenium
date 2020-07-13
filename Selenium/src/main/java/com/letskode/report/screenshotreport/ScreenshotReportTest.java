@@ -27,9 +27,10 @@ import java.io.IOException;
 
 public class ScreenshotReportTest {
 
-    ExtentReports extentReports;
-    ExtentTest extentTest;
-    WebDriver driver;
+    public static String fileName="/home/huy/Downloads/testExtendReport.html";
+    private ExtentReports extentReports;
+    private ExtentTest extentTest;
+    private WebDriver driver;
 
     @BeforeClass
     public void setUp() {
@@ -38,12 +39,19 @@ public class ScreenshotReportTest {
 
         driver.get("http://www.google.com");
 
-        extentReports = new ExtentReports("/home/huy/Downloads/testExtendReport.html");
+
+
+        extentReports = new ExtentReports(fileName);
+
+
         extentTest = extentReports.startTest("verify test");
 
         extentTest.log(LogStatus.INFO, "in Setup");
 
         System.out.println("setUp");
+
+        //add more information for report
+        extentReports = ExtendInfoFactory.getInstance();
     }
 
     @AfterMethod
