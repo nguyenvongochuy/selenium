@@ -1,0 +1,23 @@
+- Command to run for Hub:
+java -jar selenium-server-standalone-3.141.59.jar -role hub
+
+this is log:
+00:14:47.078 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+00:14:47.276 INFO [GridLauncherV3.lambda$buildLaunchers$5] - Launching Selenium Grid hub on port 4444
+2020-07-13 00:14:48.069:INFO::main: Logging initialized @1463ms to org.seleniumhq.jetty9.util.log.StdErrLog
+00:14:48.391 INFO [Hub.start] - Selenium Grid hub is up and running
+00:14:48.392 INFO [Hub.start] - Nodes should register to http://172.19.0.1:4444/grid/register/
+00:14:48.392 INFO [Hub.start] - Clients should connect to http://172.19.0.1:4444/wd/hub
+
+
+- to check selenium grid run or not:
+go to chrome to open:
+http://localhost:4444/grid/console
+
+--> will see grid console page
+
+- Command to run for Node:
+java -jar selenium-server-standalone-3.141.59.jar -role node1 -hub http://localhost:4444/grid/register -port 5555
+
+or use json:
+java -jar selenium-server-standalone-3.141.59.jar -role hub -hubConfig hub.json

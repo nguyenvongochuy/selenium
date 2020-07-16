@@ -1,0 +1,10 @@
+1. Download selenium server standlone jar and save in windows node
+2. Download Chrome Driver (E.g. Firefox driver if want) and save in windows node
+3. Run below command to run windows node to register to grid server (E.g. 192.168.0.185:4444/...)
+
+
+java -Dwebdriver.gecko.driver="/home/huy/IdeaProjects/selenium/resources/geckodriver" -Dwebdriver.chrome.driver="/home/huy/IdeaProjects/selenium/resources/chromedriver" -jar selenium-server-standalone-3.141.59.jar -role node -hub http://192.168.0.185:4444/grid/register -port 5555
+
+or with json setup:
+
+java -jar selenium-server-standalone-3.141.59.jar -role node -nodeConfig ../node/linux/node_linux.json
