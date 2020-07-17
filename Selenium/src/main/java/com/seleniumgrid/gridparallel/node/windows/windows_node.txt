@@ -4,7 +4,7 @@
 
 
 
-java -DWebDriver.chrome.driver="C:\Users\Huy\git\selenium_intellij\resources\chromedriver-v83.exe" -jar "C:\Users\Huy\git\selenium_intellij\resources\selenium-server-standalone-3.141.59.jar" -role node -hub http://192.168.0.185:4444/grid/register -port 5555
+java -Dwebdriver.gecko.driver="C:\Users\Huy\git\selenium_intellij\resources\geckodriver.exe" -Dwebdriver.chrome.driver="C:\Users\Huy\git\selenium_intellij\resources\chromedriver-v83.exe" -jar selenium-server-standalone-3.141.59.jar -role node -hub http://192.168.0.185:4444/grid/register -port 5555
 
 or with json:
-java -Dwebdriver.gecko.driver="C:\Users\Huy\git\selenium_intellij\resources\geckodriver.exe" -Dwebdriver.chrome.driver="C:\Users\Huy\git\selenium_intellij\resources\chromedriver-v83.exe" -jar selenium-server-standalone-3.141.59.jar -role node -hub http://192.168.0.185:4444/grid/register -port 5555
+java -Dwebdriver.gecko.driver="C:\Users\Huy\git\selenium_intellij\resources\geckodriver.exe" -Dwebdriver.chrome.driver="C:\Users\Huy\git\selenium_intellij\resources\chromedriver-v83.exe" -jar selenium-server-standalone-3.141.59.jar -role node -nodeConfig C:\Users\Huy\git\selenium_intellij\Selenium\src\main\java\com\seleniumgrid\gridparallel\node\windows\node_windows.json
