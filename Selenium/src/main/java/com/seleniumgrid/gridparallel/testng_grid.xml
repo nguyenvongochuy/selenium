@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" parallel="tests">
+    <test name="Windows - firefox test">
+            <parameter name="platform" value="Windows"/>
+            <parameter name="browser" value="firefox"/>
+            <parameter name="version" value="78.0"/>
+            <parameter name="url" value="https://letskodeit.teachable.com/p/practice"/>
+            <parameter name="nodeUrl" value="http://192.168.0.92:5555/wd/hub"/>
+        <classes>
+            <class name="com.seleniumgrid.gridparallel.GridParallelTestFramework"/>
+        </classes>
+    </test>
+    <test name="Windows - chrome test">
+        <parameter name="platform" value="Windows"/>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="83.0"/>
+        <parameter name="url" value="https://letskodeit.teachable.com/p/practice"/>
+        <parameter name="nodeUrl" value="http://192.168.0.92:5555/wd/hub"/>
+        <classes>
+            <class name="com.seleniumgrid.gridparallel.GridParallelTestFramework"/>
+        </classes>
+    </test>
+    <test name="linux - firefox test">
+            <parameter name="platform" value="linux"/>
+            <parameter name="browser" value="firefox"/>
+            <parameter name="version" value="78.0"/>
+            <parameter name="url" value="https://letskodeit.teachable.com/p/practice"/>
+            <parameter name="nodeUrl" value="http://192.168.0.185:5555/wd/hub"/>
+        <classes>
+            <class name="com.seleniumgrid.gridparallel.GridParallelTestFramework"/>
+        </classes>
+    </test>
+    <test name="linux - chrome test">
+        <parameter name="platform" value="linux"/>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="83.0"/>
+        <parameter name="url" value="https://letskodeit.teachable.com/p/practice"/>
+        <parameter name="nodeUrl" value="http://192.168.0.185:5555/wd/hub"/>
+        <classes>
+            <class name="com.seleniumgrid.gridparallel.GridParallelTestFramework"/>
+        </classes>
+    </test>
+</suite>

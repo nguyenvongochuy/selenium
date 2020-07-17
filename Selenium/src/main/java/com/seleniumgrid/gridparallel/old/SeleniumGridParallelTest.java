@@ -1,5 +1,6 @@
-package com.seleniumgrid.gridparallel;
+package com.seleniumgrid.gridparallel.old;
 
+import com.seleniumgrid.gridparallel.TestPageObject;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
@@ -24,7 +25,7 @@ public class SeleniumGridParallelTest {
     @BeforeClass
     public void beforeClass() throws MalformedURLException {
         // For Windows node test
-        DesiredCapabilities desiredCapabilitiesWindows = DesiredCapabilities.chrome();
+        DesiredCapabilities desiredCapabilitiesWindows = DesiredCapabilities.firefox();
 
         //desiredCapabilitiesWindows.setBrowserName("chrome");
         //desiredCapabilitiesWindows.setPlatform(Platform.WINDOWS);
@@ -32,7 +33,7 @@ public class SeleniumGridParallelTest {
         driver = new RemoteWebDriver(new URL(remoteNodeWindowsUrl), desiredCapabilitiesWindows);
 
         // For linux node test
-        DesiredCapabilities desiredCapabilitiesLinux = DesiredCapabilities.firefox();
+        DesiredCapabilities desiredCapabilitiesLinux = DesiredCapabilities.chrome();
 
         //desiredCapabilitiesLinux.setBrowserName("chrome");
         //desiredCapabilitiesLinux.setPlatform(Platform.LINUX);
