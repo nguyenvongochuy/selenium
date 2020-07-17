@@ -7,4 +7,4 @@ java -Dwebdriver.gecko.driver="/home/huy/IdeaProjects/selenium/resources/geckodr
 
 or with json setup:
 
-java -jar selenium-server-standalone-3.141.59.jar -role node -nodeConfig ../node/linux/node_linux.json
+java -Dwebdriver.gecko.driver="/home/huy/IdeaProjects/selenium/resources/geckodriver" -Dwebdriver.chrome.driver="/home/huy/IdeaProjects/selenium/resources/chromedriver" -jar selenium-server-standalone-3.141.59.jar -role node -nodeConfig ../node/linux/node_linux.json
