@@ -22,7 +22,7 @@ public class MainTest {
 	}
 	
 	@Test
-	public void verifyHomeTitle() {
+	public void verifyHomeTitleTest() {
 		String expectedTitle="Instructor-Led Online Training with 24X7 Lifetime Support | Edureka";
 		String actualTitle = driver.getTitle();
 		Assert.assertEquals(actualTitle, expectedTitle);

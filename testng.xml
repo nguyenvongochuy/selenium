@@ -18,10 +18,10 @@
 	  </class>
     </classes>
   </test> 
-  <test name="TestForGreenFieldWeb">
+  <!--<test name="TestForGreenFieldWeb">
     <classes>
       <class name="greenfield.test.Login"/>
       <class name="greenfield.test.LocalizationTest"/>
     </classes>
-  </test> 
+  </test> -->
 </suite> <!-- Suite -->

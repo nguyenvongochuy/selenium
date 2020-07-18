@@ -23,7 +23,7 @@ public class MainTestFirefox {
 	}
 	
 	@Test(groups="firefox")
-	public void verifyHomeTitle() {
+	public void verifyHomeTitleTest() {
 		String expectedTitle="Practice | Let's Kode It";
 		String actualTitle = driver.getTitle();
 		Assert.assertEquals(actualTitle, expectedTitle);
