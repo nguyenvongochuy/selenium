@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Test1" preserve-order="false"> <!-- not follow order by below -->
+        <classes>
+      <class name="com.selencodes.arrangement.preserve.Preserve2Test"/>
+      <class name="com.selencodes.arrangement.preserve.Preserve1Test"/>
+    </classes>
+  </test>
+    <test name="Test2" enabled="false"> <!-- not allow to run all classes -->
+    <classes>
+      <class name="com.selencodes.arrangement.preserve.Preserve2Test"/>
+      <class name="com.selencodes.arrangement.preserve.Preserve1Test"/>
+    </classes>
+  </test>
+</suite>

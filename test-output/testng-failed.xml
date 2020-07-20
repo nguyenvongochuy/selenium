@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite for Report]">
   <test name="Test1(failed)">
     <classes>
-      <class name="com.letskode.report.ReportTest">
+      <class name="com.selencodes.report.ReportTest">
         <methods>
           <include name="listener2TestTest2"/>
           <include name="cleanUp"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.letskode.report.ReportTest -->
+      </class> <!-- com.selencodes.report.ReportTest -->
     </classes>
   </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite for Report] -->

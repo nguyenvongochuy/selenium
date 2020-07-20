@@ -24,11 +24,11 @@
 			<AppenderRef ref="File" />
 		</Root>
 		<!-- set different log levels for each package -->
-		<Logger name="com.letskode.log4j2.package1" level="debug" additivity="false" >
+		<Logger name="com.selencodes.log4j2.package1" level="debug" additivity="false" >
 			<AppenderRef ref="Console" />
 			<AppenderRef ref="File" />
 		</Logger>
-		<Logger name="com.letskode.log4j2.package2" level="info" additivity="false" >
+		<Logger name="com.selencodes.log4j2.package2" level="info" additivity="false" >
 			<AppenderRef ref="Console" />
 			<AppenderRef ref="File" />
 		</Logger>
