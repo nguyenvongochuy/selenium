@@ -10,16 +10,7 @@ public class AnotationPageObjectPracticePage {
 
 	private WebDriver driver;
 	
-//	@FindBy(xpath="//div[@class='StorefrontWizardRegionBEX all-b-margin-six']//li[2]//a[1]")
-//	//@FindBy(css="#app > div:nth-child(1) > div > div > div > div.StorefrontWizardRegionBEX.all-b-margin-six > div > figure > div.wizardCard.all-t-padding-twelve.all-x-padding-six.SimpleContainer > div > div > div > ul > li.uitk-tab.uitk-tab-icon-text.active > a > svg")
-//	private WebElement flightElement;
-//	
-//	@FindBy(xpath="//div[contains(@class,'uitk-tabs-content')]//li[1]//a[1]")
-//	private WebElement roundTrip;
-//	
-//	@FindBy(xpath="//div[contains(@class,'uitk-tabs-inner-container')]//li[contains(@class,'active')]//a[contains(@class,'uitk-tab-anchor')]")
-//	private WebElement oneWay;
-	
+
 	@FindBy(id="carselect")
 	private WebElement carDropdown;
 
@@ -30,18 +21,6 @@ public class AnotationPageObjectPracticePage {
 		this.driver = driver;
 		PageFactory.initElements(this.driver, this);
 	}
-//	
-//	public void clickFlightTab(){
-//		flightElement.click();
-//	}
-//	
-//	public void roundTrip(){
-//		roundTrip.click();
-//	}
-//	
-//	public void oneWay(){
-//		oneWay.click();
-//	}
 
 	public WebElement getMultiSelect() {
 		return multiSelect;
